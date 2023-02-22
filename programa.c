@@ -87,3 +87,11 @@ int main() {
     scanf(" %c", &respuesta);
     if (respuesta == 'a') {
         puntos += 10;
+    }
+  if puntos >=70 {
+    printf("Felicidades, tu amor propio e smuy buueno y eres capaz de tomar buenas decisiones, tu corazon esta list para compartirse con algien mas <3");
+  }
+  else {
+    printf("Lo siento, aun necesitas trabajar en tu amor propio antes de avanzar en una nueva relacion, no te rindas eventualmente saldras adelante <3");
+  }
+}
