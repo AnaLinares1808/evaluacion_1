@@ -88,7 +88,7 @@ int main() {
     if (respuesta == 'a') {
         puntos += 10;
     }
-  if puntos >=70 {
+  if (puntos >=70) {
     printf("\nFelicidades, tu amor propio es muy buueno y eres capaz de tomar buenas decisiones, tu corazon esta listo para compartirse con algien mas <3");
   }
   else {
