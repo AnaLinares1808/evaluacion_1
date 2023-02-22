@@ -7,7 +7,7 @@ int main() {
     int puntos = 0;
     char respuesta;
   
-    printf("Bienvenido al cuestionario del Amor Propio\nPor favor responde sinceramente para brindarte la mejo experiencia posible"); 
+    printf("Bienvenido al cuestionario del Amor Propio\nPor favor responde sinceramente para brindarte la mejor experiencia posible <3\n"); 
 
     // Primera pregunta
     printf("1. ¿Aceptas tus defectos y limitaciones?\n");
@@ -43,7 +43,7 @@ int main() {
 
     // Quinta pregunta
     printf("5. Antes de hacer una llamada telefónica, ¿ensayas lo que vas a decir? ¿Por qué?\n");
-    printf("a) Si, porque evito pasar el ridiculo\nb) No necesariamente, quieor mostrare por como soy\nc) A veces con el fin de no sentirme nervios@\n");
+    printf("a) Si, porque evito pasar el ridiculo\nb) No necesariamente, quiero mostrarme por como soy\nc) A veces con el fin de no sentirme nervios@\n");
     scanf(" %c", &respuesta);
     if (respuesta == 'b') {
         puntos += 10;
@@ -82,7 +82,7 @@ int main() {
     }
 
     // Décima pregunta
-    printf("10. ¿Tomas las decisiones d etu vida de manera consciente y libre?\n");
+    printf("10. ¿Tomas las decisiones de tu vida de manera consciente y libre?\n");
     printf("a) Siempre\nb) Algunas veces\nc) Prefiero que alguien mas lo haga por mi\n");
     scanf(" %c", &respuesta);
     if (respuesta == 'a') {
