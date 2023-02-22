@@ -1,16 +1,16 @@
 /*Fecha: 22/02/2023
   Autor: Ana Paola Linares Guzmán
-  Version: 1.0*/
+  Version: 2.5*/
 #include <stdio.h>
 
 int main() {
     int puntos = 0;
     char respuesta;
   
-    printf("Bienvenido al cuestionario de Amor Propio\n"); 
+    printf("Bienvenido al cuestionario del Amor Propio\nPor favor responde sinceramente para brindarte la mejo experiencia posible"); 
 
     // Primera pregunta
-    printf("1. ¿Aceptas rus defectos y limitaciones?\n");
+    printf("1. ¿Aceptas tus defectos y limitaciones?\n");
     printf("a) Si\nb) No\nc) A veces\n");
     scanf(" %c", &respuesta);
     if (respuesta == 'a') {
@@ -26,7 +26,7 @@ int main() {
     }
 
     // Tercera pregunta
-    printf("3. ¿Te permites expresar los sentimientos, aunque disgusten a otros?\n");
+    printf("3. ¿Te permites expresar los sentimientos, aunque les disguste a otras personas?\n");
     printf("a) Me expreso sin importar lo que digan\nb) Tengo miedo a que la gente piense mal de mi\nc) Me es indiferente el pensamiento de los demas\n");
     scanf(" %c", &respuesta);
     if (respuesta == 'a') {
@@ -89,9 +89,10 @@ int main() {
         puntos += 10;
     }
   if puntos >=70 {
-    printf("Felicidades, tu amor propio e smuy buueno y eres capaz de tomar buenas decisiones, tu corazon esta list para compartirse con algien mas <3");
+    printf("\nFelicidades, tu amor propio es muy buueno y eres capaz de tomar buenas decisiones, tu corazon esta listo para compartirse con algien mas <3");
   }
   else {
-    printf("Lo siento, aun necesitas trabajar en tu amor propio antes de avanzar en una nueva relacion, no te rindas eventualmente saldras adelante <3");
+    printf("\nLo siento, aun necesitas trabajar en tu amor propio antes de avanzar en una nueva relacion, no te rindas, eventualmente saldras adelante <3");
   }
+  return 0;
 }
